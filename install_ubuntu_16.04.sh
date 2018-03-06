@@ -62,8 +62,8 @@ if [[ ("$UFW" == "y" || "$UFW" == "Y" || "$UFW" == "") ]]; then
 fi
 
 #Install Folm Daemon
-wget https://github.com/folm/folm/releases/download/v3.1.1/folm-3.1.1.ubuntu.16.04.zip
-sudo unzip folm-3.1.1.ubuntu.16.04.zip
+wget https://github.com/folm/folm/releases/download/v3.1.2/folm-3.1.2.ubuntu.16.04.zip
+sudo unzip folm-3.1.2.ubuntu.16.04.zip
 sudo rm folm
 sudo cp ~/folm/folmd /usr/bin
 sudo cp ~/folm/folmd /usr/bin
